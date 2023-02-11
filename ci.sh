@@ -20,4 +20,5 @@ clang-format \
 	--sort-includes \
 	./**/*.hpp
 
+pre-commit run --all-files
 # test
