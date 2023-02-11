@@ -1,15 +1,5 @@
 #!/bin/bash
 
-test() {
-	# cmake -S . -B build
-	# cmake --build build
-	# ctest --test-dir build
-	for f in ./dsalgo/*.cpp; do
-		echo "next run $f"
-		./run $f
-	done
-}
-
 clang-tidy \
 	--fix \
 	--fix-errors \
@@ -20,4 +10,4 @@ clang-format \
 	--sort-includes \
 	./**/*.hpp
 
-# test
+pre-commit run --all-files

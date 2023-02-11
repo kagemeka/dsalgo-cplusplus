@@ -1,10 +1,8 @@
 *.out
 main
 
-/build
 /Catch2
 /googletest
-/CMakeFiles
 
 .mypy_cache
 !.gitkeep
