@@ -1,0 +1,11 @@
+#!/bin/bash
+
+gpp_compile() {
+    g++ $1 -std=c++20 -O2 -g -Wall -Wextra -DCPP_DEBUG
+}
+
+gpp() {
+    gpp_compile $1 && chmod +x main && time ./a.out
+}
+
+gpp $1
