@@ -5,7 +5,7 @@ gpp_compile() {
 }
 
 gpp() {
-    gpp_compile $1 && chmod +x main && time ./a.out
+    gpp_compile $1 && chmod +x ./a.out && time ./a.out
 }
 
 gpp $1
