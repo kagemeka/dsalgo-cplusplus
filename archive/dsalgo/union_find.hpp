@@ -1,6 +1,7 @@
 #pragma once
 #include <vector>
 using namespace std;
+
 struct union_find {
   vector<int> data;
   union_find(int size): data(size, -1) {}
