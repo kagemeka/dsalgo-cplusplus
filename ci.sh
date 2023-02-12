@@ -3,11 +3,13 @@
 clang-tidy \
 	--fix \
 	--fix-errors \
-	./**/*.[ch]pp
+	./**/*.[ch]pp \
+	./*.[ch]pp
 
 clang-format \
 	-i \
 	--sort-includes \
-	./**/*.hpp
+	./**/*.[ch]pp \
+	./*.[ch]pp
 
 pre-commit run --all-files

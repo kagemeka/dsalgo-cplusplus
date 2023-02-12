@@ -1,3 +1,6 @@
 ---
 FormatStyle: llvm
-Checks: "clang-diagnostic-*,clang-analyzer-*,modernize-*"
+Checks: "clang-diagnostic-*,clang-analyzer-*,modernize-*,readability-function-cognitive-complexity"
+CheckOptions:
+  - key: readability-function-cognitive-complexity.Threshold
+    value: 8

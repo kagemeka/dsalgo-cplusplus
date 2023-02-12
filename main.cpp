@@ -10,11 +10,18 @@ public:
 
 using namespace std;
 template<class T> auto labels(UF uf) -> vector<int> {}
-int main() {
+auto main() -> int {
   // using namespace dsalgo;
   // union_find;
 
   long a = 1;
   long long b = 2;
   __int128_t c = 3;
+  if (true) {
+    if (true) {
+      if (true) {
+        cout << 1 << endl;
+      }
+    }
+  }
 }

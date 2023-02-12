@@ -1,6 +1,6 @@
 services:
   dev:
-    image: gcc:latest
+    image: ubuntu:latest
     tty: true
     volumes:
       - .:/root/dsalgo-cplusplus
