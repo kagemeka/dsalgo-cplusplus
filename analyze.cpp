@@ -1,2 +1,2 @@
 #include "dsalgo/dsalgo.hpp"
-int main() {}
+auto main() -> int {}
