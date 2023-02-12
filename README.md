@@ -1,3 +1,3 @@
-# cpp-algorithms
+# dsalgo
 
-Datastructures and Algorithms written in C++
+Datastructures and Algorithms
