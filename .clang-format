@@ -17,3 +17,5 @@ SpaceBeforeRangeBasedForLoopColon: false
 SpacesInContainerLiterals: false
 SpacesInCStyleCastParentheses: false
 TabWidth: 2
+RequiresExpressionIndentation: OuterScope
+# SortIncludes: CaseInsensitive # default

@@ -3,6 +3,7 @@
 clang-tidy \
 	--fix \
 	--fix-errors \
+	--extra-arg=-std=c++20 \
 	./**/*.[ch]pp \
 	./*.[ch]pp
 
