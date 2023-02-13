@@ -27,6 +27,7 @@ apt update
 apt install -y build-essential
 install_nightly_tools
 # install_tools
+apt install -y gdb lldb
 
 apt install -y python3-pip
 pip install -U pip
