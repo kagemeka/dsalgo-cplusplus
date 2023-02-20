@@ -7,6 +7,7 @@ BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBinaryOperators: NonAssignment
 # ColumnLimit: 80
+MaxEmptyLinesToKeep: 0
 KeepEmptyLinesAtTheStartOfBlocks: false
 QualifierAlignment: Custom
 QualifierOrder: ['inline', 'static', 'const', 'type']
@@ -18,4 +19,4 @@ SpacesInContainerLiterals: false
 SpacesInCStyleCastParentheses: false
 TabWidth: 2
 RequiresExpressionIndentation: OuterScope
-# SortIncludes: CaseInsensitive # default
+# SortIncludes: CaseInsensitive
